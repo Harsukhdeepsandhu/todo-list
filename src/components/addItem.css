@@ -1,0 +1,27 @@
+.add-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 5%;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.add-bar>input[type=text] {
+    width: 80%;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.add-bar>input[type=submit] {
+    width: 20%;
+    border-radius: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.add-bar>input[type=submit]:hover {
+    cursor: pointer;
+    border: 2px solid black;
+}

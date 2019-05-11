@@ -1,0 +1,27 @@
+.items-div {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    border-bottom: 2px solid rgb(175, 172, 172);
+    font-size: 2rem;
+}
+
+.items-div:hover {
+    background: black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px rgb(184, 177, 177);
+}
+
+.items-div>div>span:hover {
+    cursor: pointer;
+}
+
+.items-div>div>input[type=checkbox]:hover {
+    cursor: pointer;
+}
+
+.items-div>div>label:hover {
+    cursor: pointer;
+}
